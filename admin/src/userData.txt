@@ -1,0 +1,171 @@
+db.users.insertMany([{
+    
+    "username" : "Sachin Patwal",
+    "email" : "sachin@gmail.com",
+    "password" : "U2FsdGVkX181hl5v745VhFRj59Mqz2oi3a8r+7oV77I=",
+    "profilePicture" : "https://firebasestorage.googleapis.com/v0/b/netflix-clone-61bc9.appspot.com/o/netflix-clone%2F1670511478034images.jpeg?alt=media&token=de3b58e6-e862-4db5-a806-06843bdef2b2",
+    "isAdmin" : true,
+     "createdAt" : ISODate("2022-11-08T17:20:52.572+0000"),
+    "updatedAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "__v" : NumberInt(0)
+    
+}
+,
+{
+    
+    "username" : "Raj Sharma",
+    "email" : "raj@gmail.com",
+    "password" : "U2FsdGVkX181hl5v745VhFRj59Mqz2oi3a8r+7oV77I=",
+    "profilePicture" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRijOBMa_kboSxuauiMs1f-pmWOJw0ufmuD0gnWJJWpW7vtd291EVmJZOD7085rT7d-fL8&usqp=CAU",
+    "isAdmin" : false,
+    "createdAt" : ISODate("2022-11-08T17:20:52.572+0000"),
+    "updatedAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "__v" : NumberInt(0)
+    
+},
+
+{
+    
+    "username" : "Aman Tirkey",
+    "email" : "aman@gmail.com",
+    "password" : "U2FsdGVkX1/aBHqGFQzDIPi/kEY4Oj9CrYwNZ/RgiD8=",
+    "profilePicture" : "https://www.iwmbuzz.com/wp-content/uploads/2020/05/cristiano-ronaldo-and-his-best-fashion-moments.jpg",
+    "isAdmin" : false,
+    "createdAt" : ISODate("2022-09-08T17:20:52.572+0000"),
+    "updatedAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "__v" : NumberInt(0)
+    
+},
+{
+    
+    "username" : "Neeraj Singh",
+    "email" : "neeraj@gmail.com",
+    "password" : "U2FsdGVkX19w+Q8DLDa1ZI8+I/EVP+Mrph2cppOS+Fk=",
+    "profilePicture" : "https://www.pinkvilla.com/imageresize/chris-evans-gets-candid-about-having-a-career-in-politics-i-have-to-think-before-i-dive-into_it-recklessly.jpg?width=752&t=pvorg",
+    "isAdmin" : true,
+      "createdAt" : ISODate("2022-06-08T17:20:52.572+0000"),
+    "updatedAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "__v" : NumberInt(0)
+    
+},
+{
+    
+    "username" : "Rahul Kumar",
+    "email" : "rahulkumargmail.com",
+    "password" : "U2FsdGVkX1/5gv/vahyZEOVEf1CcbwBUY2yqu+l1H8w=",
+    "profilePicture" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAbO_TWm2tqT_jlJOYgK9C23Ne3kUIWebtXgc87QWO3O2mSEQJiVus9FGrZH7V7pjM6R4&usqp=CAU",
+    "isAdmin" : false,
+    "createdAt" : ISODate("2022-05-08T17:20:52.572+0000"),
+    "updatedAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "__v" : NumberInt(0)
+    
+},
+{
+    
+    "username" : "Ashutosh Sharma",
+    "email" : "ashutosh@gmail.com",
+    "password" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAbO_TWm2tqT_jlJOYgK9C23Ne3kUIWebtXgc87QWO3O2mSEQJiVus9FGrZH7V7pjM6R4&usqp=CAU",
+    "profilePicture" : "https://pbs.twimg.com/profile_images/1247482752351588352/EgHoUNqQ_400x400.jpg",
+    "isAdmin" : false,
+    "createdAt" : ISODate("2022-05-08T17:20:52.572+0000"),
+    "updatedAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "__v" : NumberInt(0)
+    
+},
+{
+    
+    "username" : "Surya Kumar",
+    "email" : "surya@gmail.com",
+    "password" : "U2FsdGVkX18PyIS8PkbZ/KK6nf7ic9qJcSll9GqifBE=",
+    "profilePicture" : "data:image/jpeg;base64,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",
+    "isAdmin" : false,
+    "createdAt" : ISODate("2022-03-08T17:20:52.572+0000"),
+    "updatedAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "__v" : NumberInt(0)
+    
+},
+{
+    
+    "username" : "Gurpreet Singh",
+    "email" : "gurpreet@gmail.com",
+    "password" : "U2FsdGVkX19qokFCLpi9oRE44SIjveqjRi1P8kuN7iM=",
+    "profilePicture" : "https://firebasestorage.googleapis.com/v0/b/netflix-clone-61bc9.appspot.com/o/netflix-clone%2F1670512712316images.jpeg?alt=media&token=3ba910e2-dd81-44f4-8326-8a3675369a51",
+    "isAdmin" : false,
+    "createdAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "updatedAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "__v" : NumberInt(0)
+    
+},
+{
+    
+    "username" : "Mohit Chand",
+    "email" : "mohit@gmail.com",
+    "password" : "U2FsdGVkX1/ZdtgeLSckGGdaub4VS4QNz+xFZ7CIFwU=",
+    "profilePicture" : "https://cdn.images.express.co.uk/img/dynamic/67/590x/Cristiano-Ronaldo-618257.jpg",
+    "isAdmin" : false,
+    "createdAt" : ISODate("2022-01-08T17:20:52.572+0000"),
+    "updatedAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "__v" : NumberInt(0)
+    
+},
+{
+    
+    "username" : "Rishav Bisht",
+    "email" : "rishav@gmail.com",
+    "password" : "U2FsdGVkX1+ZQ//lWwIZ32CC17n5/290gBQz9m7g1ms=",
+    "profilePicture" : "https://cdn.givemesport.com/wp-content/uploads/2022/01/21_11_29_de06ca56ae23aae92034c37415544e43_960-1.jpg",
+    "isAdmin" : false,
+    "createdAt" : ISODate("2022-02-08T17:20:52.572+0000"),
+    "updatedAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "__v" : NumberInt(0)
+    
+},
+{
+    
+    "username" : "Raghav Sharma",
+    "email" : "raghav@gmail.com",
+    "password" : "U2FsdGVkX18joJnVncGvQie/eFU8+sAyKw9F4q2gIrk=",
+    "profilePicture" : "https://firebasestorage.googleapis.com/v0/b/netflix-clone-61bc9.appspot.com/o/netflix-clone%2F1670512855064images.jpeg?alt=media&token=f4affd41-69bb-47bd-a445-a5f20e52e6a3",
+    "isAdmin" : false,
+    "createdAt" : ISODate("2022-04-08T17:20:52.572+0000"),
+    "updatedAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "__v" : NumberInt(0)
+    
+},
+{
+    
+    "username" : "Tushar Arora",
+    "email" : "tushar@gmail.com",
+    "password" : "U2FsdGVkX18JaNXsMA69pmmJCHP3kjSjNVPn0Z4f4kI=",
+    "profilePicture" : "https://firebasestorage.googleapis.com/v0/b/netflix-clone-61bc9.appspot.com/o/netflix-clone%2F1670512877050images.jpeg?alt=media&token=b7ba3188-608a-477b-a188-338c5ffe852f",
+    "isAdmin" : false,
+    "createdAt" : ISODate("2022-07-08T17:20:52.572+0000"),
+    "updatedAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "__v" : NumberInt(0)
+    
+},
+{
+    
+    "username" : "manpreet",
+    "email" : "manpreet@gmail.com",
+    "password" : "U2FsdGVkX1/wsjtQ9JNUFcHpjvQXR7XuvYgtnkgfD/Q=",
+    "profilePicture" : "https://new-media.dhakatribune.com/en/uploads/2022/06/11/justin-bieber.jpeg",
+    "isAdmin" : false,
+    "createdAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "updatedAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "__v" : NumberInt(0)
+    
+},
+{
+    
+    "username" : "Amit Gupta",
+    "email" : "amit@gmail.com",
+    "password" : "U2FsdGVkX1+/5mcqHpekp5/dgjuFSAZiKO8erM9alVg=",
+    "profilePicture" : "https://sport360.com/wp-content/uploads/2018/09/Luka-Modric-Real-Madrid-2.jpg",
+    "isAdmin" : false,
+    "createdAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "updatedAt" : ISODate("2022-12-08T17:20:52.572+0000"),
+    "__v" : NumberInt(0)
+    
+}
+])

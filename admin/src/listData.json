@@ -1,0 +1,16 @@
+[
+    {
+        "title": "action movies by postman",
+        "type": "movie",
+        "genre": "action",
+        "content": [
+            "6392b58a39dac358bc4f783f",
+            "6392b58a39dac358bc4f783f",
+            "6392b58a39dac358bc4f783f"
+        ],
+        "_id": "6392b99126812d1c3ad90acc",
+        "createdAt": "2022-12-09T04:29:05.097Z",
+        "updatedAt": "2022-12-09T04:29:05.097Z",
+        "__v": 0
+    }
+]

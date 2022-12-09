@@ -1,0 +1,65 @@
+.newProduct {
+    flex: 4;
+    
+}
+
+.title{
+
+    font-weight: 700;
+    font-size: 22px;
+    color: #00008b;
+
+
+}
+
+.addProductForm {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.addProductItem {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.addProductItem>label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.addProductItem>input {
+    padding: 10px;
+}
+
+.addProductItem>select {
+    padding: 10px;
+}
+
+option{
+    height: 20px;
+}
+
+.addProductButton {
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    cursor: pointer;
+    align-self: center;
+    margin-left: 200px;
+    position: absolute;
+    width: 160px;
+    top:400px;
+    left:-150px
+    
+}

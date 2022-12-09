@@ -1,0 +1,517 @@
+db.movies.insertMany([
+    {
+        "title" : "Avengers Endgame",
+        "desc" : "Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers. In the film, the surviving members of the Avengers and their allies attempt to reverse the destruction caused by Thanos in Infinity War.",
+        "img" : "https://r4.wallpaperflare.com/wallpaper/212/657/279/the-avengers-avengers-endgame-ant-man-avengers-endgame-black-widow-hd-wallpaper-f3ead35a28f55c3d68c26ef3c1d8a251.jpg",
+        "imgTitle" : "https://1000logos.net/wp-content/uploads/2019/05/Avengers-Logo-2012.png",
+        "imgSm" : "https://r4.wallpaperflare.com/wallpaper/212/657/279/the-avengers-avengers-endgame-ant-man-avengers-endgame-black-widow-hd-wallpaper-f3ead35a28f55c3d68c26ef3c1d8a251.jpg",
+        "trailer" : "https://www.youtube.com/watch?v=TcMBFSGVi1c&t=2s",
+        "video" : "https://firebasestorage.googleapis.com/v0/b/netflix-clone-61bc9.appspot.com/o/netflix-clone%2F1670559110771videoimages.jpeg?alt=media&token=47caa5bf-a8c0-4254-872f-f565ef9bbd0b",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "Action",
+        "isSeries" : false,
+        "duration" : "2 hours 16 min"
+    },
+    {
+        
+        "title" : "Thor Ragnarok ",
+        "desc" : "CThor: Ragnarok is a 2017 American superhero film based on the Marvel Comics character Thor, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to Thor (2011) and Thor: The Dark World (2013), and is the 17th film in the Marvel Cinematic Universe (MCU).",
+        "img" : "https://wallpapercave.com/uwp/uwp176443.jpeg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "Action",
+        "isSeries" : false,
+        "duration" : "2 hours 16 min"
+    },
+    {
+        
+        "title" : "Black Adman ",
+        "desc" : "Black Adam (Teth/Theo-Adam) is a superhero appearing in American comic books published by DC Comics. The character was created by Otto Binder and C. C. Beck, and first appeared in the debut issue of Fawcett Comics' The Marvel Family.",
+        "img" : "https://www.xtrafondos.com/en/descargar.php?id=6173&resolucion=3840x2160",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2022",
+        "limit" : 16,
+        "genre" : "Action",
+        "isSeries" : false,
+        "duration" : "2 hours"
+    },
+    {
+        
+        "title" : "John Wick 2 ",
+        "desc" : "John Wick: Chapter 2 is a 2017 American neo-noir action thriller film directed by Chad Stahelski and written by Derek Kolstad. The sequel to John Wick (2014), it is the second installment in the John Wick film series. ",
+        "img" : "https://images3.alphacoders.com/801/801817.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "Action",
+        "isSeries" : false,
+        "duration" : "2 hours 16 min"
+    },
+      {
+        
+        "title" : "John Wick 3 ",
+        "desc" : "John Wick: Chapter 3 is a 2019 American neo-noir action thriller film directed by Chad Stahelski and written by Derek Kolstad. The sequel to John Wick (2014), it is the second installment in the John Wick film series. ",
+        "img" : "https://images3.alphacoders.com/103/1033561.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "Action",
+        "isSeries" : false,
+        "duration" : "1 hours 46 min"
+    },
+      {
+        
+        "title" : "Fast and Furious 7 ",
+        "desc" : "Furious 7 (titled onscreen as Fast & Furious 7) is a 2015 American action film directed by James Wan and written by Chris Morgan. It is the sequel to Fast & Furious 6 (2013), and serves as the seventh installment in the Fast & Furious franchise. ",
+        "img" : "https://images7.alphacoders.com/589/589261.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "Action",
+        "isSeries" : false,
+        "duration" : "2 hours 12 min"
+    },
+      {
+        
+        "title" : "Fast and Furious 10 ",
+        "desc" : "Furious 8 (titled onscreen as Fast & Furious 8) is a 2016 American action film directed by James Wan and written by Chris Morgan. It is the sequel to Fast & Furious 6 (2013), and serves as the seventh installment in the Fast & Furious franchise. ",
+        "img" : "https://wallpapercave.com/wp/wp8953277.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "Action",
+        "isSeries" : false,
+        "duration" : "2 hours 12 min"
+    },
+ 
+    {
+        
+        "title" : "KGF Chapter 1 ",
+        "desc" : "K.G.F: Chapter 1 is a 2018 Indian Kannada-language period action film[5] written and directed by Prashanth Neel, and produced by Vijay Kiragandur under the banner of Hombale Films. It is the first of two installments in the series, followed by K.G.F: Chapter 2",
+        "img" : "https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/9dc2a274284099.5c2a29444ddb6.png",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2018",
+        "limit" : 16,
+        "genre" : "Action",
+        "isSeries" : false,
+        "duration" : "2 hours 15 min"
+    },
+    {
+        
+        "title" : "Iron Man ",
+        "desc" : "Iron Man is a superhero appearing in American comic books published by Marvel Comics. The character was co-created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby.",
+        "img" : "https://wallpapercave.com/wp/wp3703412.jpg",
+        "imgTitle" : "https://www.freepnglogos.com/uploads/marvel-logo-png/image-marvel-studios-logo-disney-wiki-18.png",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2012",
+        "limit" : 16,
+        "genre" : "Action",
+        "isSeries" : false,
+        "duration" : "1 hours 50 min"
+    },
+    {
+        
+        "title" : "Captain America  ",
+        "desc" : "Captain America is a superhero appearing in American comic books published by Marvel Comics. Created by cartoonists Joe Simon and Jack Kirby, the character first appeared in Captain America Comics  from Timely Comics, a predecessor of Marvel Comics.",
+        "img" : "https://i.pinimg.com/originals/f2/09/10/f209107c957f11b243c6a1afbe43e1ca.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "Action",
+        "isSeries" : false,
+        "duration" : "2 hours 16 min"
+    },
+
+    {
+        
+        "title" : "Dark",
+        "desc" : "Dark is a German science fiction thriller television series co-created by Baran bo Odar and Jantje Friese. It ran for three seasons from 2017 to 2020. The story follows characters from the fictional village of Winden, Germany, as they pursue the truth in the aftermath of a child's disappearance. ",
+        "img" : "https://wallsbazar.com/wp-content/uploads/2022/03/Dark-Netflix-Computer-Wallpaper.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2018",
+        "limit" : 13,
+        "genre" : "thriller",
+        "isSeries" : true,
+        "duration" : "8 hours 16 min"
+    },
+
+    {
+        
+        "title" : "Peaky Blinder",
+        "desc" : "Peaky Blinders is a British period crime drama television series, it follows the exploits of the Peaky Blinders crime gang in the direct aftermath of the First World War. The fictional gang is loosely based on a real urban youth gang of the same name who were active in the city from the 1880s to the 1910s.",
+        "img" : "https://wallpapercave.com/wp/wp1890593.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "crime",
+        "isSeries" : true,
+        "duration" : "2 hours 16 min"
+    },
+    {
+        
+        "title" : "Narcos",
+        "desc" : "Narcos is an American-Colombian crime drama television series created and produced by Chris Brancato, Carlo Bernard, and Doug Miro. Set and filmed in Colombia, seasons 1 and 2 are based on the story of drug kingpin Pablo Escobar, who became a billionaire through the production and distribution of cocaine. ",
+        "img" : "https://wallpaperaccess.com/full/1097130.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "crime",
+        "isSeries" : true,
+        "duration" : "7 hours 16 min"
+    },
+    {
+        
+        "title" : "13 Reasons Why",
+        "desc" : "13 Reasons Why is an American teen drama television series developed for Netflix by Brian Yorkey, based on the 2007 novel Thirteen Reasons Why by Jay Asher.[1] During the course of the series, 49 episodes of 13 Reasons Why were released over four seasons, between March 31, 2017, and June 5, 2020.",
+        "img" : "https://wallpapercave.com/wp/wp4577769.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2019",
+        "limit" : 16,
+        "genre" : "crime",
+        "isSeries" : true,
+        "duration" : "6 hours 22 min"
+    },
+    {
+        
+        "title" : "Squid Game",
+        "desc" : "Squid Game is a South Korean survival drama television series created by Hwang Dong-hyuk for Netflix. Its cast includes Lee Jung-jae, Park Hae-soo, Wi Ha-joon, HoYeon Jung, O Yeong-su, Heo Sung-tae, Anupam Tripathi, and Kim Joo-ryoung.",
+        "img" : "https://wallpapercave.com/wp/wp9932802.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2021",
+        "limit" : 16,
+        "genre" : "comedy",
+        "isSeries" : true,
+        "duration" : "9 hours 16 min"
+    },
+    {
+        
+        "title" : "Lucifer",
+        "desc" : "Lucifer is an American urban fantasy television series developed by Tom Kapinos that premiered on January 25, 2016, and concluded on September 10, 2021. It is based on the DC Comics character created by Neil Gaiman, Sam Kieth, and Mike Dringenberg. ",
+        "img" : "https://wallpaperaccess.com/full/1092351.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2018",
+        "limit" : 13,
+        "genre" : "Action",
+        "isSeries" : true,
+        "duration" : "6 hours 02 min"
+    },
+    {
+        
+        "title" : "Sacred Games",
+        "desc" : "Sacred Games is an Indian neo-noir crime thriller streaming television series based on Vikram Chandra's 2006 novel of the same name. India's first Netflix original series, it was produced and directed by Vikramaditya Motwane and Anurag Kashyap as Phantom Films. ",
+        "img" : "https://wallpapercave.com/wp/wp4555177.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2018",
+        "limit" : 16,
+        "genre" : "Action",
+        "isSeries" : true,
+        "duration" : "8 hours 16 min"
+    },
+    {
+        
+        "title" : "Money Hiest",
+        "desc" : "Money Heist (Spanish: La casa de papel, is a Spanish heist crime drama television series . The series traces two long-prepared heists led by the Professor , one on the Royal Mint of Spain, and one on the Bank of Spain, told from the perspective of one of the robbers,",
+        "img" : "https://wallpapercave.com/wp/wp6581266.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2021",
+        "limit" : 16,
+        "genre" : "crime",
+        "isSeries" : true,
+        "duration" : "8 hours 16 min"
+    },
+    {
+        
+        "title" : "Stranger Things",
+        "desc" : "Stranger Things is an American science fiction horror drama television series created by the Duffer Brothers, who also serve as showrunners and are executive producers along with Shawn Levy and Dan Cohen. Produced by Monkey Massacre Productions and Levy's 21 Laps Entertainment,",
+        "img" : "https://wallpapercave.com/wp/wp3855688.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2018",
+        "limit" : 16,
+        "genre" : "thriller",
+        "isSeries" : true,
+        "duration" : "10 hours 16 min"
+    },
+    {
+        
+        "title" : "Dare Devil",
+        "desc" : "Marvel's Daredevil is an American television series created by Drew Goddard for the streaming service Netflix, based on the Marvel Comics character Daredevil. It is set in the Marvel Cinematic Universe (MCU), acknowledging the continuity of the franchise's films",
+        "img" : "https://images2.alphacoders.com/777/777309.jpg",
+        "imgTitle" : "https://www.freepnglogos.com/uploads/marvel-logo-png/image-marvel-studios-logo-disney-wiki-18.png",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "Action",
+        "isSeries" : true,
+        "duration" : "8 hours 16 min"
+    },
+    {
+        
+        "title" : "The Flash",
+        "desc" : "The Flash (or simply Flash) is the name of several superheroes appearing in American comic books published by DC Comics. Created by writer Gardner Fox and artist Harry Lampert, the original Flash first appeared in Flash Comics #1 (cover date January 1940/release month November 1939)",
+        "img" : "https://wallpapercave.com/wp/wp10442307.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "Action",
+        "isSeries" : true,
+        "duration" : "5 hours 16 min"
+    },
+    {
+        
+        "title" : " The Dictator",
+        "desc" : "The Dictator is a 2012 political satire black comedy film, The film is directed by Larry Charles, who previously directed Baron Cohen's mockumentaries Borat and Brüno. Baron Cohen, in the role of Admiral General Aladeen, the dictator of the fictional Republic of Wadiya visiting the United States",
+        "img" : "https://wallpapercave.com/wp/wp2554991.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "comedy",
+        "isSeries" : false,
+        "duration" : "2 hours 26 min"
+    },
+    {
+        
+        "title" : " Red Notice",
+        "desc" : "Red Notice is a 2021 American action comedy film written by Rawson Marshall Thurber starring Dwayne Johnson alongside Ryan Reynolds and Gal Gadot. It marks the third collaboration between Thurber and Johnson, following Central Intelligence (2016) and Skyscraper (2018)",
+        "img" : "https://wallpapercave.com/wp/wp10255098.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2021",
+        "limit" : 16,
+        "genre" : "comedy",
+        "isSeries" : false,
+        "duration" : "1 hours 56 min"
+    },
+    {
+        
+        "title" : " Central Intelligence",
+        "desc" : "Central Intelligence is a 2016 American buddy action comedy film, The film stars Kevin Hart and Dwayne Johnson as two old high school classmates who go on the run after one of them joins the CIA to save the world from a terrorist who intends to sell satellite codes.",
+        "img" : "https://wallpapercave.com/wp/wp11342345.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2016",
+        "limit" : 16,
+        "genre" : "comedy",
+        "isSeries" : false,
+        "duration" : "5 hours 16 min"
+    },
+    {
+        
+        "title" : " Deadpool",
+        "desc" : "Deadpool is a 2016 American superhero film based on the Marvel Comics character of the same name. Distributed by 20th Century Fox, it is a spin-off in the X-Men film series and the eighth installment overall. ",
+        "img" : "https://images8.alphacoders.com/387/387518.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "comedy",
+        "isSeries" : false,
+        "duration" : "5 hours 16 min"
+    },
+    {
+        
+        "title" : " Jumanji Welcome to Jungle",
+        "desc" : "Jumanji: Welcome to the Jungle is a 2017 American fantasy adventure comedy film directed by Jake Kasdan, co-written by Chris McKenna, Erik Sommers, Scott Rosenberg, and Jeff Pinkner, and starring Dwayne Johnson, Jack Black, Kevin Hart, Karen Gillan, Nick Jonas, and Bobby Cannavale.",
+        "img" : "https://images2.alphacoders.com/882/882554.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2018",
+        "limit" : 16,
+        "genre" : "comedy",
+        "isSeries" : false,
+        "duration" : "2 hours 15 min"
+    },
+    {
+        
+        "title" : " Free Guy",
+        "desc" : "Free Guy is a 2021 American science fiction action-comedy film. It tells the story of a bank teller who discovers that he is a non-player character in a massively multiplayer online game who then partners with a player to find evidence that a gaming company's CEO stole the player's game's source code.",
+        "img" : "https://images8.alphacoders.com/108/1083765.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 18,
+        "genre" : "comedy",
+        "isSeries" : false,
+        "duration" : "1 hours 46 min"
+    },
+    {
+        
+        "title" : " The Suicide Squad",
+        "desc" : "The Suicide Squad is a 2021 American superhero film based on the DC Comics team Suicide Squad. Produced by DC Films, Atlas Entertainment, and The Safran Company, and distributed by Warner Bros. Pictures, it is a standalone sequel to Suicide Squad (2016) and the 10th film in the DC Extended Universe (DCEU).",
+        "img" : "https://images2.alphacoders.com/114/1140268.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2021",
+        "limit" : 16,
+        "genre" : "comedy",
+        "isSeries" : false,
+        "duration" : "2 hours 26 min"
+    },
+    {
+        
+        "title" : "Guardian of Galaxy Vol-2",
+        "desc" : "Guardians of the Galaxy Vol. 2 is a 2017 American superhero film based on the Marvel Comics superhero team Guardians of the Galaxy, produced by Marvel Studios. It is the sequel to Guardians of the Galaxy (2014) and the 15th film in the Marvel Cinematic Universe (MCU).",
+        "img" : "https://images.alphacoders.com/900/900383.jpg",
+        "imgTitle" : "",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2017",
+        "limit" : 16,
+        "genre" : "comedy",
+        "isSeries" : false,
+        "duration" : "2 hours 02 min"
+    },
+    {
+        
+        "title" : "She Hulk: Attorney at Law ",
+        "desc" : "She-Hulk: Attorney at Law is an American television miniseries created by Jessica Gao for the streaming service Disney+, based on the Marvel Comics featuring the character She-Hulk. It is the eighth television series in the Marvel Cinematic Universe (MCU) produced by Marvel Studios, ",
+        "img" : "https://images.alphacoders.com/126/1264201.jpeg",
+        "imgTitle" : "https://www.freepnglogos.com/uploads/marvel-logo-png/image-marvel-studios-logo-disney-wiki-18.png",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2022",
+        "limit" : 16,
+        "genre" : "comedy",
+        "isSeries" : true,
+        "duration" : "5 hours 16 min"
+    },
+    {
+        
+        "title" : " The Falcon and the Winter Soldier",
+        "desc" : "The Falcon and the Winter Soldier is an American television miniseries created by Malcolm Spellman for the streaming service Disney+, based on Marvel Comics featuring the characters Sam Wilson / Falcon and Bucky Barnes / Winter Soldier.",
+        "img" : "https://images6.alphacoders.com/112/1129386.jpeg",
+        "imgTitle" : "https://www.freepnglogos.com/uploads/marvel-logo-png/image-marvel-studios-logo-disney-wiki-18.png",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2021",
+        "limit" : 16,
+        "genre" : "comedy",
+        "isSeries" : true,
+        "duration" : "5 hours 12 min"
+    },
+    {
+        
+        "title" : "WandaVision",
+        "desc" : "WandaVision is an American television miniseries created by Jac Schaeffer , based on Marvel Comics featuring the characters Wanda Maximoff / Scarlet Witch and Vision. It is the first television series in the Marvel Cinematic Universe (MCU) ",
+        "img" : "https://images.alphacoders.com/110/1105203.jpeg",
+        "imgTitle" : "https://www.freepnglogos.com/uploads/marvel-logo-png/image-marvel-studios-logo-disney-wiki-18.png",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "comedy",
+        "isSeries" : true,
+        "duration" : "5 hours 42 min"
+    },
+    {
+        
+        "title" : "Moon Knight",
+        "desc" : "Moon Knight is an American television miniseries created by Jeremy Slater based on the Marvel Comics featuring the character of the same name. It is the sixth television series in the Marvel Cinematic Universe (MCU) to be produced by Marvel Studios, ",
+        "img" : "https://images4.alphacoders.com/121/1217455.jpg",
+        "imgTitle" : "https://www.freepnglogos.com/uploads/marvel-logo-png/image-marvel-studios-logo-disney-wiki-18.png",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2020",
+        "limit" : 16,
+        "genre" : "comedy",
+        "isSeries" : true,
+        "duration" : "6 hours 56 min"
+    },
+    {
+        
+        "title" : "Loki",
+        "desc" : "Loki is an American television series created by Michael Waldron , based on Marvel Comics featuring the character of the same name. It is the third television series in the Marvel Cinematic Universe (MCU) produced by Marvel Studios",
+        "img" : "https://images7.alphacoders.com/114/1141389.jpg",
+        "imgTitle" : "https://www.freepnglogos.com/uploads/marvel-logo-png/image-marvel-studios-logo-disney-wiki-18.png",
+        "imgSm" : "",
+        "trailer" : "",
+        "video" : "",
+        "year" : "2021",
+        "limit" : 16,
+        "genre" : "comedy",
+        "isSeries" : true,
+        "duration" : "7 hours 17 min"
+    },
+     
+    
+    
+]);

@@ -1,0 +1,30 @@
+const express = require ("express");
+const app = express();
+const mongoose= require("mongoose");
+require("dotenv").config();
+const authRoute=require("./routes/auth")
+const userRoute = require("./routes/users");
+const moviesRoute= require("./routes/movies");
+const listRoute= require("./routes/list");
+
+
+
+mongoose.connect(process.env.MONGODB_URL)
+.then(()=>{console.log("Connected to MongoDB");})
+.catch((err)=>{console.log(err);})
+
+app.use(express.json());// now it will accept json format in request
+
+
+app.use("/api/auth",authRoute);
+app.use("/api/users",userRoute);
+app.use ("/api/movies", moviesRoute);
+app.use ("/api/lists", listRoute);
+
+
+
+app.listen(8080,()=>{
+
+    console.log("server listening on port 8080");
+
+})
