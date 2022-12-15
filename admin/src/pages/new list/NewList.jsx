@@ -28,6 +28,8 @@ export default function NewList() {
        
     }
 
+    console.log(list);
+
     const handleSubmit = (e) => {
 
         e.preventDefault();
@@ -90,8 +92,6 @@ export default function NewList() {
                     </select>
                 </div>
 
-
-
                 </div>
 
                     <div className="right">
@@ -112,10 +112,6 @@ export default function NewList() {
 
                     </div>
              
-
-
-
-
                 <button className="addProductButton" onClick={handleSubmit} >Create</button>
 
             </form>

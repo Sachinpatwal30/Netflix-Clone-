@@ -15,11 +15,7 @@ export default function WidgetSm() {
         const getUsers=async()=>{
 
             try{
-                const res= await axios.get("users?new=true",{
-                    headers:{
-                        token:"Bearer " + JSON.parse(localStorage.getItem("user")).accessToken,
-                    }
-                })
+                const res= await axios.get("users?new=true")
                 setUsers(res.data);
                 
             } catch (error) {

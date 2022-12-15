@@ -15,11 +15,7 @@ export default function ListItem({ index, movieId }) {
   useEffect(() => {
     const getMovie = async () => {
       try {
-        const res = await axios.get("/movies/find/" + movieId, {
-          headers: {
-            token: "Bearer " + JSON.parse(localStorage.getItem("user")).accessToken,
-          },
-        });
+        const res = await axios.get("/movies/find/" + movieId);
         setMovie(res.data);
       } catch (err) {
         console.log(err);
